@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author GIGA
  */
 public class Bai4 {
-    public static main (String[] args ){
+    public static void main (String[] args ){
     Scanner input= new Scanner(System.in);
     int m,y,d;
     System.out.println("Input the number of minutes:");
