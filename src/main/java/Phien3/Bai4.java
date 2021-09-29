@@ -11,13 +11,14 @@ import java.util.Scanner;
 public class Bai4 {
     public static void main (String[] args ){
     Scanner input= new Scanner(System.in);
-    int m,y,d;
+    int m,y,d,m1;
     System.out.println("Input the number of minutes:");
     m=input.nextInt();
+    m1=m;
     y=m/525949;
     m=m%525949;
     d=m/1440;
-    System.out.println(m+ "minutes is approximately "+y+" year and "+d+" day");
+    System.out.println(m1+ "minutes is approximately "+y+" year and "+d+" day");
     
     }  
 }
