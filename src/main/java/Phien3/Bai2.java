@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author GIGA
  */
 public class Bai2 {
-    public static main (String[] args){
+    public static void main (String[] args){
      double i,m;
      Scanner input= new Scanner(System.in);
      System.out.println("Enter a value for inch");
